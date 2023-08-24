@@ -38,11 +38,8 @@ DELETE /api/notes/:id (Bonus) - Deletes a note with a specific ID.<br>
 [Note Taker](https://note-taker-1010-f0d2b7ee2090.herokuapp.com/)
 
 ## 🤝 Contribution
-Contributions, issues, and feature requests are welcome. Feel free to check the issues page if you want to contribute.
-
-## 📋 Grading and Requirements
-For details on grading and requirements, please check the original assignment brief provided above.
-
+-Tutor Andres Jimenez
+-
 ## 📄 License
 This project is MIT licensed.
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
