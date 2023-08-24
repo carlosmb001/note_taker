@@ -35,7 +35,7 @@ DELETE /api/notes/:id (Bonus) - Deletes a note with a specific ID.<br>
 
 ## 🌍 Deployment
 
-![Note Taker](https://note-taker-1010-f0d2b7ee2090.herokuapp.com/)
+[Note Taker](https://note-taker-1010-f0d2b7ee2090.herokuapp.com/)
 
 ## 🤝 Contribution
 Contributions, issues, and feature requests are welcome. Feel free to check the issues page if you want to contribute.
