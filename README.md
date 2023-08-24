@@ -6,7 +6,7 @@ An application designed to help small business owners write, save, and organize 
 
 ![Note Taker](<assets/note_taker preview1.png>)<br>
 
-[![Note Taker](https://youtu.be/tqegm8u_-kU.gif)](https://youtu.be/tqegm8u_-kU)<br>
+[![Note Taker]](https://youtu.be/tqegm8u_-kU)<br>
 
 
 ## 📜 User Story
@@ -26,7 +26,7 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete<br
 (if you have npm installed run npm start)
 4. Visit localhost:3001 in your browser to access the application.
 
-🔗 API Routes
+## 🔗 API Routes
 GET /notes - Returns the notes.html page.<br>
 GET * - Returns the index.html page.<br>
 GET /api/notes - Returns all saved notes as JSON.<br>
