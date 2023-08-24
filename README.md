@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # 📝 Note Taker (Express.js)
 Write and organize your notes with ease!
 
@@ -39,7 +41,7 @@ DELETE /api/notes/:id (Bonus) - Deletes a note with a specific ID.<br>
 -
 ## 📄 License
 This project is MIT licensed.
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 ## 👏 Acknowledgements
 edX Boot Camps LLC for the project prompt and resources.
