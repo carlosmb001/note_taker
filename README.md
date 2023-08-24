@@ -4,8 +4,10 @@ Write and organize your notes with ease!
 ## 🌟 Description
 An application designed to help small business owners write, save, and organize their notes. This project utilizes Express.js to power its back end, leveraging JSON files to store and retrieve notes.
 
-![Functionality](<Assets/note_taker preview_recording.mov>)
-![Note Taker](https://youtu.be/tqegm8u_-kU)
+![Note Taker](<Assets/note_taker preview1.png>)
+
+[![Note Taker](https://youtu.be/tqegm8u_-kU.gif)](https://youtu.be/tqegm8u_-kU)
+
 
 ## 📜 User Story
 AS A small business owner
@@ -32,7 +34,7 @@ DELETE /api/notes/:id (Bonus) - Deletes a note with a specific ID.
 
 ## 🌍 Deployment
 
-[!Note Taker Website](https://note-taker-1010-f0d2b7ee2090.herokuapp.com/)
+![Note Taker](https://note-taker-1010-f0d2b7ee2090.herokuapp.com/)
 
 ## 🤝 Contribution
 Contributions, issues, and feature requests are welcome. Feel free to check the issues page if you want to contribute.
