@@ -4,7 +4,7 @@ Write and organize your notes with ease!
 ## 🌟 Description
 An application designed to help small business owners write, save, and organize their notes. This project utilizes Express.js to power its back end, leveraging JSON files to store and retrieve notes.
 
-![Preview](assets/Note_Taker.gif))<br>
+![Preview](assets/Note_Taker.gif)<br>
 
 ## 📜 User Story
 AS A small business owner<br>
