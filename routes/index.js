@@ -1,6 +1,8 @@
 const router = require('express').Router();
 const fs = require('fs');
 
+
+//get all routes
 router.get('/api/notes', (req, res) => {
   //try {
     const notes = fs.readFileSync('./db/db.json', 'utf8');
@@ -10,6 +12,7 @@ router.get('/api/notes', (req, res) => {
   }*/
 });
 
+//create a new note
 router.post('/api/notes', (req, res) => {
   try {
     const notes =  fs.readFileSync('./db/db.json', 'utf8');
@@ -30,4 +33,20 @@ router.post('/api/notes', (req, res) => {
   }
 });
 
+//deleted a specific note
+router.delete('/api/notes/:id', (req, res) => {
+  try {
+    const notes = fs.readFileSync('./db/db.json', 'utf8');
+    const notesArray = JSON.parse(notes);
+
+    const noteId = parseInt(req.params.id);
+    const updatedNotes = notesArray.filter(note => note.id !== noteId);
+
+    fs.writeFileSync('./db/db.json', JSON.stringify(updatedNotes));
+
+    res.json({ message: 'Note deleted successfully' });
+  } catch (error) {
+    res.status(500).json({ error: 'Could not delete note.' });
+  }
+});
 module.exports = router;
